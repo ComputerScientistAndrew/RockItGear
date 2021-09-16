@@ -1,0 +1,111 @@
+﻿* {
+    font-size: 16px;
+}
+
+footer {
+    color: white;
+}
+
+.lead {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.sizes {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.sizes li {
+     display: inline;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+     background-color: darkgray;
+}
+
+.sizes li:hover, li:focus {
+     background-color: #111111;
+     color: white;
+}
+
+.validationError {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+/*css form form drop down menu input site master*/
+.dropdown {
+    float: left;
+    padding: 10px;
+}
+
+.dropdown:hover {
+    background-color: #00688B;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.categoryName {
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+}
+
+.categoryName:hover {
+    background-color: #00688B;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: visible;
+}
+
+/*Rating Star CSS*/
+.StarCss {
+    background-image: url(/Images/FilledStar.png);
+    width: 16px;
+    height: 16px;
+}
+
+.FilledStarCss {
+    background-image: url(/Images/FilledStar.png);
+    width: 16px;
+    height: 16px;
+}
+
+.EmptyStarCss {
+    background-image: url(/Images/EmptyStar.png);
+    width: 16px;
+    height: 16px;
+}
+
+.WaitingStarCss {
+    /*background-image: url(Images/SavedStar.png);*/
+}
+
+
